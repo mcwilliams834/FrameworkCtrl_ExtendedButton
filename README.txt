@@ -20,5 +20,5 @@ Extending control
 	    "$(Beckhoff.TwinCAT.HMI.Controls).InstallPath/TcHmiButton/TcHmiButton.d.ts"
 	
 	- The .ts file needs to have the class extended for the control
-	export class ExtendoButtonControl extends TcHmi.Controls.Beckhoff.TcHmiButton
+	export class <FrameworkControl Class> extends TcHmi.Controls.Beckhoff.TcHmiButton
 	
